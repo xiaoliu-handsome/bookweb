@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///mybatiss
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: com.offcn.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    com:
+      offcn:
+        mapper: debug
